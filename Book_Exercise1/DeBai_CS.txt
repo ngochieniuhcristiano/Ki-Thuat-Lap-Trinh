@@ -1,0 +1,14 @@
+Giả sử bạn quản lí các cuốn sách điện tử (CS) trên hệ thống phần mềm. Mỗi CS gồm các thông tin sau: mã CS (đúng 5 kí tự, ví dụ TCC01,..), giá mỗi cuốn sách (là số tròn nghìn), loại sách (là 0 hoặc 1 hoặc 2, với 0 được hiểu là sách Việt Nam và 1 là sách nước ngoài dịch ra và 2 là sách nước ngoài nguyên bản), số đánh giá (là số tự nhiên từ 0 đến 5, đại diện cho số sao).
+
+Yêu cầu: 
+
+1. Xây dựng cấu trúc thông tin CS cần quản lí.
+
+2. Viết hàm nhập thông tin cho 1 CS. Chú ý ràng buộc: mã CS đủ 5 kí tự với kí tự đầu phải là chữ cái (gợi ý dùng hàm strlen()), giá CS nhập vào phải tròn nghìn (nhập 90100 là sai), loại sách (là 0/1/2), số đánh giá (0 đến 5). Nếu nhập sai thì chương trình yêu cầu nhập lại.
+Nếu không ràng buộc được thì bỏ qua ràng buộc để làm các câu tiếp theo.
+
+3. Ghi vào file các CS quản lí.
+
+4. Từ file đã ghi, hãy đọc ra lại và ghi vào file khác các cuốn sách có đánh giá từ 3 sao đến 5 sao. 
+
+5. Thêm các thư viện hỗ trợ, xây dựng hàm main để chạy các hàm trên.
